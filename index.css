@@ -1,0 +1,166 @@
+.head{
+    background: #188599;
+    color: #fff;
+
+
+}
+@media only screen and (min-width: 992px){
+    #heading{
+
+        font-size:40px;
+        margin-top: 40px;
+        
+
+    } 
+    #logo{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        
+
+    }
+
+
+
+}
+@media only screen and (max-width: 992px){
+
+    #logo{
+        width: 100%;
+        height: auto;
+
+    }
+    #heading{
+
+        font-size:80px;
+        margin-top: 40px;
+
+    } 
+
+}
+#admin{
+    float: right;
+    color: #fff;
+    margin-right: 15px;
+    
+}
+#navig{
+    color: #fff;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+#navig li{
+    display: inline-block;
+    color: #fff;
+    padding-left: 25px;
+}
+#navig li a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+#navig li a:hover{
+    font-size: 22px;
+    
+}
+.items{
+    font-size: 40px;
+    margin-top: 20px;
+    color: #fff;
+    opacity: 1;
+}
+.bord{
+    background: #188599;
+   
+}
+.reg{
+    margin-left: 260px;
+    margin-right: auto;
+    font-size: 55px;
+    background: #fff;
+    font-weight: 600;
+    border-color: #fff;
+    border-radius: 30%;
+    vertical-align: middle;
+    
+        
+}
+.bord a{
+    text-decoration: none;
+    color: black;
+}
+.stat{
+    font-size: 30px;
+}
+.stat a{
+    font-size: 55px;
+    color: #fff;
+}
+.status{
+    font-size: 55px;
+    margin-left: 260px;
+    border-radius: 30%;
+    font-weight: 500;
+    background: #188599
+}
+.bor p{
+    color: #fff;
+    font-size: 30px;
+    
+}
+.bor{
+    background: #188599;
+}
+.bor a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+.services{
+    width: 100%;
+    background-image: url('img/tech2.jpg');
+    background-size: 100% auto;
+    opacity: .8;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tech{
+    z-index: -1;
+}
+.bground{
+    width: 100%;
+    background-image: url('img/bg.jpg');
+    background-size: 100% auto;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#serv{
+    font-size: 25px;
+    line-height: 55px;
+}
+#form{
+    color: #fff;
+    font-size: 17px;
+}
+#for{
+    font-size:15px;
+    color:#fff;
+    margin-top: 35px;
+}
+#fb{
+    color:royalblue;
+}
+#status{
+    margin-left: 90px;
+    width: 150px;
+    margin-top: 20px;
+}
+#check{
+    width: 50%;
+}
+#tab{
+    display: none;
+}
