@@ -12,6 +12,7 @@
         
 
     } 
+    
     #logo{
         margin-top: 20px;
         width: 100%;
@@ -27,16 +28,19 @@
 @media only screen and (max-width: 992px){
 
     #logo{
-        width: 100%;
+        width: 50px;
         height: auto;
 
     }
     #heading{
 
-        font-size:80px;
-        margin-top: 40px;
+        font-size:25px;
+        margin-top: 10px;
 
     } 
+    #logout{
+        display: block;
+    }
 
 }
 #admin{
@@ -66,7 +70,7 @@
     
 }
 .items{
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 20px;
     color: #fff;
     opacity: 1;
@@ -76,9 +80,9 @@
    
 }
 .reg{
-    margin-left: 260px;
+    margin-left: 100px;
     margin-right: auto;
-    font-size: 55px;
+    font-size: 20px;
     background: #fff;
     font-weight: 600;
     border-color: #fff;
@@ -92,22 +96,22 @@
     color: black;
 }
 .stat{
-    font-size: 30px;
+    font-size: 15px;
 }
 .stat a{
     font-size: 55px;
     color: #fff;
 }
 .status{
-    font-size: 55px;
-    margin-left: 260px;
+    font-size: 20px;
+    margin-left: 100px;
     border-radius: 30%;
     font-weight: 500;
     background: #188599
 }
 .bor p{
     color: #fff;
-    font-size: 30px;
+    font-size: 15px;
     
 }
 .bor{
@@ -116,13 +120,13 @@
 .bor a{
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 15px;
 }
 .services{
     width: 100%;
     background-image: url('img/tech2.jpg');
     background-size: 100% auto;
-    opacity: .8;
+    opacity: 1;
     margin-left: auto;
     margin-right: auto;
 }
@@ -148,7 +152,7 @@
 #for{
     font-size:15px;
     color:#fff;
-    margin-top: 35px;
+    
 }
 #fb{
     color:royalblue;
@@ -163,4 +167,7 @@
 }
 #tab{
     display: none;
+}
+.white{
+    color: #fff;
 }

@@ -3,10 +3,11 @@ include 'connectdb.php';
 ?>
 <?php
 if(isset($_POST['comp_id'])){
+    
     $id=$_POST['comp_id'];
 $query = "select * from details where cust_id='$id'";
 $result = mysqli_query($conn, $query);
-$row = mysqli_fetch_assoc($result);
+if($row = mysqli_fetch_assoc($result)){
 
 echo '
 <thead>
@@ -23,6 +24,8 @@ echo '
     <tr><td>Status</td><td>'.$row['status'].'</td></tr>
 </tbody>
 ';
+ }
+ else     echo 'Enter Valid Complaint IP';
 }
 
 ?>
