@@ -5,13 +5,15 @@
         <group>
             <file>file:/C:/xampp/htdocs/ecpcs/index.php</file>
             <file>file:/C:/xampp/htdocs/ecpcs/login.php</file>
-            <file>file:/C:/xampp/htdocs/ecpcs/status.php</file>
             <file>file:/C:/xampp/htdocs/ecpcs/getdata.php</file>
-            <file>file:/C:/xampp/htdocs/ecpcs/display.php</file>
+            <file>file:/C:/xampp/htdocs/ecpcs/status.php</file>
+            <file>file:/C:/xampp/htdocs/ecpcs/js/admin.js</file>
             <file>file:/C:/xampp/htdocs/ecpcs/registration.php</file>
             <file>file:/C:/xampp/htdocs/ecpcs/js/status.js</file>
+            <file>file:/C:/xampp/htdocs/ecpcs/admin.css</file>
             <file>file:/C:/xampp/htdocs/ecpcs/registration.css</file>
             <file>file:/C:/xampp/htdocs/ecpcs/admin.php</file>
+            <file>file:/C:/xampp/htdocs/ecpcs/logout.php</file>
             <file>file:/C:/xampp/htdocs/ecpcs/index.css</file>
         </group>
     </open-files>

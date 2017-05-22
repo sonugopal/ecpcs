@@ -25,7 +25,7 @@ echo '
 </tbody>
 ';
  }
- else     echo 'Enter Valid Complaint IP';
+ else     echo 'Enter Valid Complaint ID';
 }
 
 ?>

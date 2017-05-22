@@ -34,3 +34,13 @@ $(document).ready(function () {
 
     });
 });
+
+
+$(document).ready(function () {
+    $("#reg").on('click', function () {
+        $("#registration").show();
+        $("#complaint").hide();
+        
+
+    });
+});

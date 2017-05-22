@@ -40,7 +40,7 @@
             </div>
 
         </div>
-        <div class="row">
+        <div class="row container">
             <div class="col-xs-12 col-md-5">
                 <form class="form-group" method="post" action="login.php">
                     Username<br>
