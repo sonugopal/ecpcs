@@ -65,7 +65,7 @@
                     session_start();
                     $_SESSION['user']=$user;
                     $_SESSION['pass']=$pass;
-                    header('location:admin.php');
+                    header('location:adminpanel.php');
                 }
             }
             ?>

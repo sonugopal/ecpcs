@@ -1,11 +1,12 @@
 <?php
+include 'connectdb.php';
 session_start();
-if (!isset($_SESSION['pass'])) {
+if(empty($_SESSION['pass'])){
     header('location:login.php');
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <title>ECPCS</title>
@@ -14,16 +15,18 @@ if (!isset($_SESSION['pass'])) {
         <link rel="stylesheet" href="registration.css" type="text/css">
         <link rel="stylesheet" href="admin.css" type="text/css">
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<!--        <script src="js/admin.js" type="text/javascript"></script>-->
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script src="js/admin.js" type="text/javascript"></script>
+
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="row head">
+       <div class="row head">
             <div class="col-xs-2 col-md-1 col-lg-1 col-sm-2">
 
                 <img src="img/logo.png" id="logo"> 
@@ -31,7 +34,7 @@ if (!isset($_SESSION['pass'])) {
             <div class="col-xs-10 col-md-5 col-lg-5 col-sm-10">
                 <h1 id="heading">easy care pc services</h1>
                 <a href="Logout.php" id="admin"><h4>logout</h4></a>
-                <a href="admin.php" id="admin"><h4>Refresh</h4></a>
+                <a href="adminpanel.php" id="admin"><h4>Refresh</h4></a>
             </div>
 
         </div>
@@ -41,17 +44,33 @@ if (!isset($_SESSION['pass'])) {
                 <button class="btn btn-danger" id="pending">Pending Complaints</button>
             </div>
         </div>
+        <?php
+       
+        
+        ?>
+        
         <div class="row container">
             <div class="col-xs-12 col-md-6">
-                <div id="registration">
-                    adsdsdsadsadsa
+                <div id="registration" class="white">
+                    <h3>Registration</h3>
+                    <form class="form-group" method="post" action="reg.php">
+                                    
+                                    Name<br>
+                                    <input type="text" name="name" class="form-control" placeholder="Custumer Name" required>
+                                    Mobile<br><input type="number" name="mob" class="form-control" placeholder="Mobile no" required>
+                                    Address<br><input type="text" name="address" class="form-control" placeholder="Address" required>
+                                    Product Name<br><input type="text" name="product" class="form-control" placeholder="Product name with serial no." required>
+                                    Complaint<br><input type="text" name="complaint" class="form-control" placeholder="complaint" required>
+                                    <br><button type="submit" name="submit" class="btn btn-success bttn">Submit</button>
+                                    
+                                </form>
                 </div>
                 <div id="complaint">
                     dsadasd
                 </div>
             </div>
         </div>
+       
 
     </body>
 </html>
-
