@@ -34,12 +34,18 @@ and open the template in the editor.
 <!--                        <a href="login.php" id="admin"><h4>Admin</h4></a>-->
                     </div>
                     <div class="row">
+                        <div class="col-md-8">
                         <nav id="navig">
                             <ul id="navig">
                                 <li><a href="index.php">Home</a></li>
                                 <li><a href="login.php">Admin</a></li>
                             </ul>
                         </nav>
+                        
+                    </div>
+                        <div class="col-md-4">
+                            <a href="status.php"><img src="img/status.png" id="status"></a>
+                        </div>
                     </div>
                 </div>
 
@@ -53,22 +59,29 @@ and open the template in the editor.
                         <li>Services</li>
                         <li>CCTV survilliance services</li>
                         <li>Network Management services</li>
+                        <li>Web designing</li>
                         
                     </ul>
+                   
                 </div>
+                     
                 </div>
-                <br>
+                
+                
                 
                 <div class="row bord">
                     <a href="registration.php"><button class="btn reg">Register Complaint</button></a>
                 </div>
                 <div class="row container stat">
-                    <br>
+                    <div class="col-xs-12">
+                    
                     <p>Click below button to know status of your registered complaint</p>
                     <a href="status.php"><button class="btn status">Status of Complaint</button></a>
+                    <a href="login.php" id="log"><p id="log">Admin</p></a>
+                    
                 </div>
-                <br>
-                <br>
+                </div>
+                
                 <div class="row bor text-center">
                     <a href="https://www.facebook.com/groups/EasyCarePCServices/"<p>easycarepcservices@facebook.com</p></a>
                     <p>easycarepcservices@gmail.com</p>
@@ -87,6 +100,7 @@ and open the template in the editor.
                         <li>Services</li>
                         <li>CCTV survilliance services</li>
                         <li>Network Management services</li>
+                        <li>Web designing</li>
                         
                     </ul>
                             
@@ -108,7 +122,7 @@ and open the template in the editor.
                                     Product Name<br><input type="text" name="product" class="form-control" placeholder="Product name with serial no." required>
                                     Complaint<br><input type="text" name="complaint" class="form-control" placeholder="complaint" required>
                                     <br><button type="submit" name="submit" class="btn btn-success bttn">Submit</button>
-                                    <a href="status.php"><img src="img/status.png" id="status"></a>
+                                    
                                 </form>
                             </div> 
                         </div>

@@ -20,16 +20,7 @@ if(isset($_POST['submit'])){
     
     
 // the message
-$msg = "Name: ".$name."\nMobile: ".$mobile."\nAddress: ".$add."Product: ".$pro."Complaint: ".$comp."Date: ".$date;
- 
-$msg = "First line of text\nSecond line of text";
-$subject=$name.''.$pro;
 
-// use wordwrap() if lines are longer than 70 characters
-//$msg = wordwrap($msg,70);
-
-// send email
-mail("sonugopal41@gmail.com","$subject",$msg);
 
     
     if(!empty($result)){
