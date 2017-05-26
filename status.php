@@ -50,7 +50,7 @@ include 'connectdb.php';
             <div class="col-xs-12 col-md-4">
                 <br>
                 <h3>Enter Complaint ID</h3>
-                <input type="number" class="form-control field" id="comp_id" required>
+                <input type="number" class="form-control field" id="comp_id" required><br>
                 <button class="btn btn-success" id="check">Check</button>
             </div>
         </div>

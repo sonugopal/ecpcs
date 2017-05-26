@@ -70,13 +70,13 @@ and open the template in the editor.
                 
                 
                 <div class="row bord">
-                    <a href="registration.php"><button class="btn reg">Register Complaint</button></a>
+                    <a href="registration.php" id="mid"><button class="btn reg">Register Complaint</button></a>
                 </div>
                 <div class="row container stat">
                     <div class="col-xs-12">
                     
                     <p>Click below button to know status of your registered complaint</p>
-                    <a href="status.php"><button class="btn status">Status of Complaint</button></a>
+                    <a href="status.php" id="mid"><button class="btn status">Status of Complaint</button></a>
                     <a href="login.php" id="log"><p id="log">Admin</p></a>
                     
                 </div>

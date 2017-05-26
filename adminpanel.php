@@ -76,7 +76,7 @@ if (empty($_SESSION['pass'])) {
                 
                 ?>
                 <form action="updation.php" method="post">
-                <table class="table white" id="align">
+                <table class="table table-sm white" id="align">
                     <thead>
                         
                     </thead>

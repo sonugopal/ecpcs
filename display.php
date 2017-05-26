@@ -21,7 +21,7 @@
                 <img src="img/logo.png" id="logo"> 
             </div>
             <div class="col-xs-10 col-md-5 col-lg-5 col-sm-10">
-                <h1 id="heading">easy care pc services</h1>
+                <a href="index.php" class="white"><h1 id="heading">easy care pc services</h1></a>
             </div>
             <div class="hidden-sm hidden-xs col-md-6 col-lg-6">
                 <div class="row">
@@ -60,7 +60,7 @@
 // use wordwrap() if lines are longer than 70 characters
 //$msg = wordwrap($msg,70);
 // send email
-                    mail("sonugopal41@gmail.com", "$subject", $msg,"ecpcs");
+                    mail("sonugopal41@gmail.com",$subject, $msg,"ecpcs");
                     ?>
                     <table class="table" id="white">
                         <thead>

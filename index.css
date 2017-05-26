@@ -8,16 +8,18 @@
     #heading{
 
         font-size:40px;
-        margin-top: 40px;
+/*        margin-top: 40px;*/
+        vertical-align: middle;
         
 
     } 
     
     #logo{
-        margin-top: 20px;
+/*        margin-top: 20px;*/
         width: 100%;
         height: auto;
         margin-bottom: 10px;
+        vertical-align: middle;
         
 
     }
@@ -28,14 +30,14 @@
 @media only screen and (max-width: 992px){
 
     #logo{
-        width: 50px;
+        width: 65px;
         height: auto;
 
     }
     #heading{
 
-        font-size:25px;
-        margin-top: 10px;
+        font-size:28px;
+        vertical-align: middle;
 
     } 
     #logout{
@@ -53,7 +55,7 @@
     color: #fff;
     display: inline-block;
     margin-top: 35px;
-    margin-left: 80px;
+    margin-left: 0;
 }
 #navig li{
     display: inline-block;
@@ -98,7 +100,7 @@
 }
 .stat{
     font-size: 15px;
-    width: 100%;
+    
 }
 .stat a{
     font-size: 55px;
@@ -181,6 +183,10 @@
 }
 #align td{
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 5px;
     vertical-align: middle;
+}
+#mid{
+    margin-left: auto;
+    margin-right: auto;
 }

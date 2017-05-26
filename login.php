@@ -44,9 +44,9 @@
             <div class="col-xs-12 col-md-5">
                 <form class="form-group" method="post" action="login.php">
                     Username<br>
-                    <input type="text" class="form-control" name="user">
+                    <input type="text" class="form-control" name="user" required>
                     Password<br>
-                    <input type="password" class="form-control" name="pass">
+                    <input type="password" class="form-control" name="pass" required>
                     <button type="submit" name="login" class="btn btn-success">Login</button>
                 </form>
                 <br>
