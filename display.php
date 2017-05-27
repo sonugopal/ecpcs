@@ -45,6 +45,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-6">
                     <br>
                     <h2>Registration Successfull</h2>
+                    <p class="white">Please keep your complaint ID to check complaint status</p>
                     <?php
                     include 'connectdb.php';
                     session_start();
@@ -79,6 +80,72 @@
                     </table>
                     <?php
                     session_destroy();
+                    ?>
+                    <?php
+                     $authKey = "153993AXLNGnWPh59294af8";
+        
+
+//Multiple mobiles numbers separated by comma
+        $mobileNumber = $row['mobile'];
+
+//Sender ID,While using route4 sender id should be 6 characters long.
+        $senderId = "ECPCSD";
+//verify otp
+        
+        
+        
+//verify route
+
+        $route = 4;
+
+//Your message to send, Add URL encoding here.
+        $message = urlencode("Your complaint has registered\n\nComplaint ID: ".$row['cust_id']."\nName: " . $row['name'] . "\nMobile: " . $row['mobile'] . "\nAddress: " . $row['address'] . "\nProduct: " . $row['product'] . "\nComplaint: " . $row['complaint'] . "\nDate: " . $row['date'].'\n\nVisit ecpcs.in');
+
+//Define route 
+//Prepare you post parameters
+        $postData = array(
+            'authkey' => $authKey,
+            'mobiles' => $mobileNumber,
+            'message' => $message,
+            'sender' => $senderId,
+            'route' => $route
+        );
+
+//API URL
+        $url = "https://control.msg91.com/api/sendhttp.php";
+
+// init the resource
+        $ch = curl_init();
+        curl_setopt_array($ch, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => $postData
+                //,CURLOPT_FOLLOWLOCATION => true
+        ));
+
+
+//Ignore SSL certificate verification
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+
+
+//get response
+        $output = curl_exec($ch);
+
+//Print error if any
+        if (curl_errno($ch)) {
+            echo 'error:' . curl_error($ch);
+        }
+
+        curl_close($ch);
+    
+
+if($output==0){
+    echo 'Something went wrong..'
+    . 'Try again';
+}
+   
                     ?>
 
 

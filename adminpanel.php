@@ -40,8 +40,8 @@ if (empty($_SESSION['pass'])) {
         </div>
         <div class="row container">
             <div class="col-xs-12 col-md-4">
-<!--                <button class="btn btn-success" id="reg">Registration</button>
-                <button class="btn btn-danger" id="pending">Pending Complaints</button>-->
+                <button class="btn btn-success" id="show">All complaints</button>
+                <button class="btn btn-danger" id="pendingb">Pending Complaints</button>
             </div>
         </div>
         <?php
@@ -68,7 +68,7 @@ if (empty($_SESSION['pass'])) {
                 </div>-->
             </div>
         </div>
-        <div class="row container">
+        <div class="row container" id="pending">
             <div class="col-xs-12 col-md-12">
                 <?php
                 $query="select * from details where status='Pending'";
@@ -97,6 +97,28 @@ if (empty($_SESSION['pass'])) {
                 </form>
                 
             </div>
+        </div>
+        <div class="row container" id="all">
+            
+            <?php
+            $queryall="select * from details";
+                $resultall= mysqli_query($conn,$queryall);
+                
+            ?>
+            <table class="table table-sm white" id="align">
+                    <thead>
+                        
+                    </thead>
+                    <tbody>
+                        
+                        <?php
+                                        while ($row= mysqli_fetch_assoc($resultall)){
+                                            echo '<tr><td>'.$row['cust_id'].'<td><td>'.$row['name'].'<td><td>'.$row['product'].'<td><td>'.$row['complaint'].'<td><td>'.$row['date'].'
+                                                    <tr>';
+                                        }
+                        ?>
+                    </tbody>
+                </table>
         </div>
 
 

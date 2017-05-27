@@ -140,11 +140,12 @@
 }
 .bground{
     width: 100%;
-    background-image: url('img/bg.jpg');
+    background-image: url('img/board.jpg');
     background-size: 100% auto;
     height: 700px;
     margin-left: auto;
     margin-right: auto;
+    font-family: calibri;
 }
 #serv{
     font-size: 25px;
@@ -153,6 +154,9 @@
 #form{
     color: #fff;
     font-size: 17px;
+}
+#form input{
+    height: 30px;
 }
 #for{
     font-size:15px;

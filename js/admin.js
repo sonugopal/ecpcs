@@ -1,17 +1,17 @@
 
 $(document).ready(function(){
-    $("#pending").on('click', function(){
-      $("#complaint").show(); 
-      $("#registration").hide();
+    $("#pendingb").on('click', function(){
+      $("#pending").show(); 
+      $("#all").hide();
     });
 });
 
 
 
 $(document).ready(function () {
-    $("#reg").on('click', function () {
-        $("#registration").show();
-        $("#complaint").hide();
+    $("#show").on('click', function () {
+        $("#all").show();
+        $("#pending").hide();
         
 
     });

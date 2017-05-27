@@ -90,11 +90,12 @@ and open the template in the editor.
                    
                    
                 </div>
+                <a href="https://msg91.com/startups/?utm_source=startup-banner"><img src="https://msg91.com/images/startups/msg91Badge.png" width="120" height="90" title="MSG91 - SMS for Startups" alt="Bulk SMS - MSG91"></a>
             </div>
             <div class="row hidden-xs hidden-sm">
                 <div class="row bground">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4">
+                        <div class="col-lg-5 col-md-5">
                             <ul class="items" id="serv">
                         <li>Residential & Commercial computer sales</li>
                         <li>Services</li>
@@ -105,7 +106,7 @@ and open the template in the editor.
                     </ul>
                             
                         </div>
-                        <div class="col-lg-4 col-md-4">
+                        <div class="col-lg-3 col-md-3">
                                 
                             
                             
@@ -143,6 +144,7 @@ and open the template in the editor.
                         </div>
                         
                     </div>
+                    <a href="https://msg91.com/startups/?utm_source=startup-banner"><img src="https://msg91.com/images/startups/msg91Badge.png" width="120" height="90" title="MSG91 - SMS for Startups" alt="Bulk SMS - MSG91"></a>
                     
                 </div>
             </div>
