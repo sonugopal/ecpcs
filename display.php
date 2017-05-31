@@ -61,7 +61,7 @@
 // use wordwrap() if lines are longer than 70 characters
 //$msg = wordwrap($msg,70);
 // send email
-                    mail("sonugopal41@gmail.com",$subject, $msg,"ecpcs");
+                    mail("easycarepcservices@gmail.com",$subject, $msg,"ecpcs");
                     ?>
                     <table class="table" id="white">
                         <thead>
@@ -99,7 +99,7 @@
         $route = 4;
 
 //Your message to send, Add URL encoding here.
-        $message = urlencode("Your complaint has registered\n\nComplaint ID: ".$row['cust_id']."\nName: " . $row['name'] . "\nMobile: " . $row['mobile'] . "\nAddress: " . $row['address'] . "\nProduct: " . $row['product'] . "\nComplaint: " . $row['complaint'] . "\nDate: " . $row['date'].'\n\nVisit ecpcs.in');
+        $message = urlencode("Your complaint has registered\n\nComplaint ID: ".$row['cust_id']."\nName: " . $row['name'] . "\nMobile: " . $row['mobile'] . "\nAddress: " . $row['address'] . "\nProduct: " . $row['product'] . "\nComplaint: " . $row['complaint'] . "\nDate: " . $row['date']."\n\nVisit www.ecpcs.in");
 
 //Define route 
 //Prepare you post parameters

@@ -14,9 +14,11 @@ and open the template in the editor.
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -59,8 +61,9 @@ and open the template in the editor.
                         <li>Services</li>
                         <li>CCTV survilliance services</li>
                         <li>Network Management services</li>
-                        <li>Web designing</li>
-                        
+                        <li>Web development</li>
+                        <li>Visual Workshop</li>
+                        <li>Commercial adds</li>
                     </ul>
                    
                 </div>
@@ -101,7 +104,25 @@ and open the template in the editor.
                         <li>Services</li>
                         <li>CCTV survilliance services</li>
                         <li>Network Management services</li>
-                        <li>Web designing</li>
+                        <li id="web">Web development</li>
+                        <ul id="web1" class="w3-container w3-animate-left sub">
+                            <li>Web page designing</li>
+                            <li>Php coding</li>
+                            <li>Database management</li>
+                            <li>Website hosting</li>
+                        </ul>
+                        <li id="visual">Visual Workshop</li>
+                        <ul id="visual1" class="sub w3-container w3-animate-left">
+                            <li>Highlights</li>
+                            <li>Adds</li>
+                            <li>Shoot & Editing</li>
+                        </ul>
+                        <li id="adds">Commercial adds</li>
+                        <ul id="adds1" class="sub w3-container w3-animate-left sub">
+                            <li>Facebook</li>
+                            <li>Whatsapp</li>
+                            <li>Brochure</li>
+                        </ul>
                         
                     </ul>
                             
@@ -137,7 +158,7 @@ and open the template in the editor.
                             <p>easycarepcservices@gmail.com</p> 
                         </div>
                         <div class="col-lg-2 col-md-2">
-                            <p>Mob:9947959360</p>
+                            <p>Mob:7561003300</p>
                         </div>
                         <div class="col-lg-3 col-md-3">
                             <p>Vengara, Mini bazar 676519</p>

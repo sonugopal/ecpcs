@@ -151,6 +151,9 @@
     font-size: 25px;
     line-height: 55px;
 }
+#serv li{
+    cursor: default;
+}
 #form{
     color: #fff;
     font-size: 17px;
@@ -193,4 +196,22 @@
 #mid{
     margin-left: auto;
     margin-right: auto;
+}
+#web1{
+    display: none;
+    transition-timing-function: linear;
+    -webkit-transition: 4s;
+    transition: 4s;
+    
+    
+}
+.sub{
+    opacity: .8;
+    font-size: 23px;
+}
+#visual1{
+    display: none;
+}
+#adds1{
+    display: none;
 }

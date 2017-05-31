@@ -29,7 +29,7 @@ if (isset($_POST['update'])) {
 
 //Your message to send, Add URL encoding here.
         $message = urlencode("EASY CARE PC SERVICES\nYour registered complaint has solved. You can contact us for any computer needs\n"
-                . "\necpcs.in\nPh:7561003300");
+                . "\nwww.ecpcs.in\nPh:7561003300");
 
 //Define route 
 //Prepare you post parameters
